@@ -277,7 +277,9 @@ a{
         border-bottom: var(--border); */
         padding-top: 0;
     }
-
+    .card-group2{
+        padding-top: 0;
+    }
     .section3-card{
         width: 33%;
         background-color: white;
