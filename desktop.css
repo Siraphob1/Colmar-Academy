@@ -266,14 +266,14 @@ a{
     }
 
     .section3-group-card{
-       border-top: var(--border);
+       /* border-top: var(--border); */
         padding: 32px 72px;
         display: flex;
     }
 
     .section3-group-card:last-child{
-        border-top: none;
-        border-bottom: var(--border);
+        /* border-top: none;
+        border-bottom: var(--border); */
         padding-top: 0;
     }
 
@@ -313,3 +313,6 @@ a{
         margin: 8px 0;
     }
 /* ----------SECTION2 LEFT---------- */
+    .section3-link-title{
+        display: none;
+    }
