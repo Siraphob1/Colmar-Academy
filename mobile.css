@@ -1,0 +1,25 @@
+:root{
+    --border: 1px solid black;
+}
+
+@media only screen and (max-width: 660px) {
+    
+/* --------------------------------NAV-------------------------------- */
+/* ----------NAV DESKTOP---------- */    
+    .nav-desktop{
+        display: none;
+    }
+
+/* ----------NAV MOBILE---------- */
+    .nav-mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+    }
+
+    .nav-mobile img  {
+        height: 32px;
+        /* border: var(--border); */
+    }
+}
