@@ -191,4 +191,18 @@
    }
 
   
+
+
+
+/* -----------------------FOOTER----------------------- */
+.footer{
+    background-color: white;
+    padding: 16px 24px;
+}
+.footer-left{
+    font-size: 3vw;
+}
+   .footer-right{
+    display: none;
+   }
 }

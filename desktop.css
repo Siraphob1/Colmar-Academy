@@ -323,6 +323,7 @@ a{
 
 
 
+/* -----------------------SECTION4----------------------- */
     
     .section4{
         background-color: #f3f5f5;
@@ -404,4 +405,24 @@ a{
         font-size: 1.29vw;
         opacity: 80%;
         width: 90%;
+    }
+
+
+
+
+
+
+/* -----------------------FOOTER----------------------- */
+    .footer{
+        color: #4a4a4a;
+        font-family: var(--FF-Poppins);
+        font-size: 1.25vw;
+        background-color: #f3f5f5;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 24px 64px;
+    }
+    .footer-right-a{
+        color: #4a4a4a;
+        margin-right: 1rem;
     }
