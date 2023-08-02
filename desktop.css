@@ -150,6 +150,9 @@ a{
 
 
 
+
+
+
 /* -----------------------SECTION2----------------------- */
 .section2{
     /* border: var(--border); */
@@ -174,7 +177,7 @@ a{
     margin: 32px 0 24px 0;
 }
 .section2-left p{
-    border: var(--border);
+    /* border: var(--border); */
     color: #4a4a4a;
     font-family: var(--FF-Poppins);
     font-size: 1.29vw;
@@ -241,3 +244,66 @@ a{
     opacity: 50%;
 }
 
+
+
+
+
+
+/* -----------------------SECTION2----------------------- */
+    .section3{
+        background-color: #eaebec;
+    }
+    .section3 h2{
+        color: #4a4a4a;
+        font-family: var(--FF-Roboto);
+        font-size: 3.35vw;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section3-group-card{
+        border: var(--border);
+        padding: 32px 72px;
+        display: flex;
+    }
+
+    .section3-card{
+        width: 33%;
+        background-color: white;
+        margin-right: 32px;
+    }
+
+    .section3-card:last-child{
+        margin-right: 0;
+    }
+
+    .section3-card img{
+        width: 100%;
+        height: auto;
+    }
+
+    .section3-card-description{
+        padding: 16px 16px 24px;
+    }
+    .section3-card-description h3{
+        color: #4a4a4a;
+        font-family: var(--FF-Roboto);
+        font-size: 2.1vw;
+        font-weight: 400;
+    }
+    .section3-card-description p{
+        color: #4a4a4a;
+        font-family: var(--FF-Poppins);
+        font-size: 1.29vw;
+        opacity: 80%;
+        width: 90%;
+
+    }
+    .section3-card-description-p1{
+        margin: 8px 0;
+    }
+/* ----------SECTION2 LEFT---------- */
