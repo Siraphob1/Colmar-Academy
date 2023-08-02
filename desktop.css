@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 li{
@@ -89,12 +90,13 @@ a{
 
 
 /* --------------------------------MAIN-------------------------------- */
-/* ----------SECTION1---------- */
+/* -----------------------SECTION1----------------------- */
 .section1{
     display: flex;
     background-color: #d8d8d8;
 }
 
+/* ----------SECTION1 LEFT---------- */
 .section1-left{
     width: 60%;
     padding: 32px 24px;
@@ -102,6 +104,8 @@ a{
 .section1-left img{
     width: 100%;
 }
+
+/* ----------SECTION1 RIGHT---------- */
 .section1-right{
     width: 40%;
     /* border: var(--border); */
@@ -143,3 +147,97 @@ a{
 .section1-right > div > button:active{
     opacity: 50%;
 }
+
+
+
+/* -----------------------SECTION2----------------------- */
+.section2{
+    /* border: var(--border); */
+    background-color: #f3f5f5;
+    display: flex;    
+}
+/* ----------SECTION2 LEFT---------- */
+.section2-left{
+    border-right: 1px solid #d8d8d8;
+    width: 60%;
+    padding: 32px 24px;
+    
+}
+
+.section2-left img{
+    width: 100%;
+}
+.section2-left h2{
+    color: #4a4a4a;
+    font-family: var(--FF-Roboto);
+    font-size: 3.35vw;
+    margin: 32px 0 24px 0;
+}
+.section2-left p{
+    border: var(--border);
+    color: #4a4a4a;
+    font-family: var(--FF-Poppins);
+    font-size: 1.29vw;
+    width: 96%;    
+}
+
+.section2-left-p1{
+    opacity: 80%;
+}
+.section2-left-p2{
+    color: #6d6d6d;
+    font-family: var(--FF-Roboto);
+    font-weight: 500;
+    margin-top: 32px;
+} 
+/* ----------SECTION2 RIGHT---------- */
+.section2-right{
+    width: 40%;
+}
+
+.section2-right-card{
+    /* border: var(--border); */
+    display: flex;
+    align-items: center;
+}
+
+.section2-right-card:hover{
+    background-color: #d8d8d8;
+}
+
+.section2-right-card:first-child{
+    margin-top: 16px;
+    border-bottom: 5px double #d8d8d8;
+}
+.section2-right-card:nth-child(2){
+    border-bottom: 5px double #d8d8d8;
+}
+
+.section2-right-card img{
+    padding: 16px;
+    width: 35%;
+}
+.section2-right-card-right{
+    /* border: var(--border); */
+    color: #4a4a4a;
+    width: 65%;
+}
+
+.section2-right-card-right > h3{
+    font-family: var(--FF-Poppins);
+    font-size: 2vw;
+}
+
+.section2-right-card-right  p{
+    font-family: var(--FF-Poppins);
+    font-size: 1.33vw;
+    width: 95%;
+    margin: 8px 0;
+}
+.section2-right-card-right a{
+    font-family: var(--FF-Poppins);
+    font-size: 1.33vw;
+    font-weight: 500;
+    opacity: 50%;
+}
+

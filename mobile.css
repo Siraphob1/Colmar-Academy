@@ -24,31 +24,98 @@
     }
 
 /* --------------------------------MAIN-------------------------------- */
-/* ----------SECTION1---------- */
-.section1{
-    flex-direction: column;    
-    background-color: #dbdbdb;
+/* -----------------------SECTION1----------------------- */
+    .section1{
+        flex-direction: column;    
+        background-color: #dbdbdb;
+        
+    }
+/* ----------SECTION1 LEFT---------- */
+    .section1-left , .section1-right , .section1-right > div{
+        width: 100%;   
+    }
+
+    .section1-left{
+        padding: 0;
+    }
+
+/* ----------SECTION1 RIGHT---------- */
+    .section1-right > div{
+        padding: 32px 16px;
+    }
+
+    .section1-right > div > h1{
+        font-size: 10vw;
+    }
+
+    .section1-right > div > p{
+        font-size: 5.7vw;
+        margin: 32px 0 24px 0;
+    }
+
+
+
+
+
+/* -----------------------SECTION2----------------------- */
+    .section2{
+        background-color: white;
+    }
+/* ----------SECTION2 LEFT---------- */
+    .section2-left{
+        display: none;
+    }
+/* ----------SECTION2 RIGHT---------- */
+    .section2-right{
+        width: 100%;
+        padding: 16px 16px 32px;
+    }
+    .section2-right-card{
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        padding-bottom: 64px;
+    }
     
-}
+    .section2-right-card:first-child{
+        margin-top: 0;
+        border: none;
+    }
+    .section2-right-card:nth-child(2){
+        border: none;
+    }
+    .section2-right-card:last-child{
+        padding-bottom: 32px;
+        border-bottom: 1px solid #d8d8d8;
+    }
+    .section2-right-card img{
+        width: 100%;
+        padding: 0;
+    }
+    .card1 img{
+        content: url("/images/information-orientation-mobile.jpg");
+        
+    }
+    .card2 img{
+        content: url("/images/information-campus-mobile.jpg");
+    }
+    .card3 img{
+        content: url("/images/information-guest-lecture-mobile.jpg");
+    }
 
-.section1-left , .section1-right , .section1-right > div{
-    width: 100%;   
-}
-
-.section1-left{
-    padding: 0;
-}
-
-.section1-right > div{
-    padding: 32px 16px;
-}
-
-.section1-right > div > h1{
-    font-size: 10vw;
-}
-
-.section1-right > div > p{
-    font-size: 5.7vw;
-    margin: 32px 0 24px 0;
-}
+    .section2-right-card-right{
+        padding: 16px;
+        width: 100%;
+    }
+    .section2-right-card-right h3{
+        font-size: 6vw;
+    }
+    .section2-right-card-right p{
+        font-size: 4vw;
+        width: 95%;
+    }
+    .section2-right-card-right a{
+        font-size: 4vw;
+        font-weight: 550;
+    }
 }
