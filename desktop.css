@@ -266,9 +266,15 @@ a{
     }
 
     .section3-group-card{
-        border: var(--border);
+       border-top: var(--border);
         padding: 32px 72px;
         display: flex;
+    }
+
+    .section3-group-card:last-child{
+        border-top: none;
+        border-bottom: var(--border);
+        padding-top: 0;
     }
 
     .section3-card{
