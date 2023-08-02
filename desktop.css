@@ -249,7 +249,8 @@ a{
 
 
 
-/* -----------------------SECTION2----------------------- */
+/* -----------------------SECTION3----------------------- */
+/* ----------SECTION3 DESKTOP---------- */
     .section3{
         background-color: #eaebec;
     }
@@ -312,7 +313,95 @@ a{
     .section3-card-description-p1{
         margin: 8px 0;
     }
-/* ----------SECTION2 LEFT---------- */
+/* ----------SECTION3 MOBILE---------- */
     .section3-link-title{
         display: none;
+    }
+
+
+
+
+
+
+    
+    .section4{
+        background-color: #f3f5f5;
+        
+    }
+    .section4 h2{
+        color: #4a4a4a;
+        font-family: var(--FF-Roboto);
+        font-size: 3.35vw;
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .section4-group{
+        /* border: var(--border); */
+        display: flex;
+        border-bottom: 1px solid #d8d8d8;
+    }
+/* ----------SECTION4 LEFT---------- */
+    .section4-left{
+        /* border: var(--border); */
+        padding: 32px 24px;
+        width: 60%;
+    }
+    .section4-left video{
+        width: 100%;
+    }
+
+    .section4-left-description{
+        /* border: var(--border); */
+        margin-top: 24px;
+    }
+    .section4-left-description h3{
+        color: #4a4a4a;
+        font-family: var(--FF-Roboto);
+        font-size: 2.1vw;
+        font-weight: 400;
+    }
+    .section4-left-description p{
+        color: #4a4a4a;
+        font-family: var(--FF-Poppins);
+        font-size: 1.29vw;
+        margin-top: 8px;
+    }
+
+
+
+/* ----------SECTION4 RIGHT---------- */
+    .section4-right{
+        width: 40%;
+    }
+
+    .section4-right-card{
+        display: flex;
+        align-items: center;
+    }
+
+    .section4-right-card:hover{
+        cursor: pointer;
+        background-color: #d8d8d8;
+    }
+    
+    .section4-right-card img{
+        width: 35%;
+        padding: 16px;
+    }
+    .section4-right-card div{
+        width: 65%;
+        /* border: var(--border); */
+    }
+    .section4-right-card div h3{
+        color: #4a4a4a;
+        font-family: var(--FF-Poppins);
+        font-size: 2vw;
+    }
+    .section4-right-card div p{
+        color: #4a4a4a;
+        font-family: var(--FF-Poppins);
+        font-size: 1.29vw;
+        opacity: 80%;
+        width: 90%;
     }
