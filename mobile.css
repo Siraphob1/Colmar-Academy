@@ -164,7 +164,31 @@
         margin-bottom: 0;
     }
 
-   
+
+
+
+
+/* -----------------------SECTION4----------------------- */
+    .section4{
+        background-color: white;
+        border-top: 1px solid #d8d8d8;
+    }
+    .section4 h2{
+        font-size: 10vw;
+    }
+    .section4-group{
+        border: none;
+    }
+    .section4-left{
+        width: 100%;
+        padding: 16px 0 24px 0;
+    }
+    .section4-left-description{
+        display: none;
+    }
+   .section4-right{
+    display: none;
+   }
 
   
 }
