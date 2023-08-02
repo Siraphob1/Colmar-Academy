@@ -283,6 +283,9 @@ a{
         background-color: white;
         margin-right: 32px;
     }
+    .section3-card:hover{
+        background-color: #d8d8d8;
+    }
 
     .section3-card:last-child{
         margin-right: 0;
@@ -351,6 +354,9 @@ a{
     .section4-left video{
         width: 100%;
     }
+    .section4-left video:hover{
+        cursor: pointer;
+    }
 
     .section4-left-description{
         /* border: var(--border); */
@@ -374,11 +380,16 @@ a{
 /* ----------SECTION4 RIGHT---------- */
     .section4-right{
         width: 40%;
+        margin-top: 32px;
+        border-left: 1px solid #d8d8d8;
     }
 
     .section4-right-card{
         display: flex;
         align-items: center;
+    }
+    .section4-right-card:first-child{
+        border-bottom: 5px double #d8d8d8;
     }
 
     .section4-right-card:hover{
