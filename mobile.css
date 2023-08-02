@@ -22,4 +22,33 @@
         height: 32px;
         /* border: var(--border); */
     }
+
+/* --------------------------------MAIN-------------------------------- */
+/* ----------SECTION1---------- */
+.section1{
+    flex-direction: column;    
+    background-color: #dbdbdb;
+    
+}
+
+.section1-left , .section1-right , .section1-right > div{
+    width: 100%;   
+}
+
+.section1-left{
+    padding: 0;
+}
+
+.section1-right > div{
+    padding: 32px 16px;
+}
+
+.section1-right > div > h1{
+    font-size: 10vw;
+}
+
+.section1-right > div > p{
+    font-size: 5.7vw;
+    margin: 32px 0 24px 0;
+}
 }

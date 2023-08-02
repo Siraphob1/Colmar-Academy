@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Commissioner:wght@400;500;700&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=League+Spartan&family=Lexend+Deca&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Nunito:wght@200&family=Open+Sans:wght@400;700&family=Outfit&family=Overpass:wght@100;300;600&family=Poppins:wght@300;600&family=Raleway:wght@400;700&family=Roboto:wght@300;500&family=Ubuntu:wght@400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@700&family=Commissioner:wght@400;500;700&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=League+Spartan&family=Lexend+Deca&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Nunito:wght@200&family=Open+Sans:wght@400;700&family=Outfit&family=Overpass:wght@100;300;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Raleway:wght@400;700&family=Roboto:wght@300;500&family=Ubuntu:wght@400;500;700&display=swap');
 
 :root{
     /* BORDER */
@@ -82,4 +82,64 @@ a{
 /* ----------NAV MOBILE---------- */
 .nav-mobile{
     display: none;
+}
+
+
+
+
+
+/* --------------------------------MAIN-------------------------------- */
+/* ----------SECTION1---------- */
+.section1{
+    display: flex;
+    background-color: #d8d8d8;
+}
+
+.section1-left{
+    width: 60%;
+    padding: 32px 24px;
+}
+.section1-left img{
+    width: 100%;
+}
+.section1-right{
+    width: 40%;
+    /* border: var(--border); */
+    display: flex;
+    align-items: center;
+}
+
+.section1-right > div{
+    /* border: var(--border); */
+    width: 75%;
+    color: #4a4a4a;
+}
+
+.section1-right > div > h1{
+    font-family: var(--FF-Roboto);
+    font-size: 3.9vw;
+}
+.section1-right > div > p{
+    font-family: var(--FF-Poppins);
+    font-weight: 700;
+    font-size: 1.8vw;
+    margin: 2vw 0;
+}
+.section1-right > div > button{
+    background-color: #4a4a4a;
+    border: none;
+    color: white;
+    font-family: var(--FF-Poppins);
+    font-weight: 500;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.section1-right > div > button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.section1-right > div > button:active{
+    opacity: 50%;
 }
